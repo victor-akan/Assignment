@@ -1,0 +1,338 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* My code */
+
+body {
+	text-align: center;
+}
+  
+  .nav-bar {
+  	float:  right;
+  	width: 100%;
+  	  }
+ .nav-bar ol {
+ 	float: right;
+    
+    
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    margin-right: 50px;
+
+
+
+}
+
+   .nav-bar ol li{
+   
+   padding: 10px;
+   float: right;
+   list-style-type: none;
+   display: inline-block;
+   font-size: 13px;
+   color: #000;
+   
+
+}
+
+.nav-bar ol .icon li{
+
+  width: 64;
+  height: 34;
+  
+
+
+}
+
+ .nav-bar ol li img{
+
+  width: 12%;
+
+
+
+
+}
+
+.nav-bar ol li a{
+
+   color: #000;
+   
+
+}
+
+.nav-bar ol li:hover{
+text-decoration: underline;
+
+}
+
+.nav-bar  .Sign-in a {
+
+   color: white;
+   cursor: default;
+
+}
+
+ .nav-bar  .Sign-in:hover {
+
+   text-decoration: none;
+   
+
+}
+
+
+.nav-bar ol  .Sign-in{
+
+   background-color: #4386fb;
+   color: white;
+
+   border-radius: 4px;
+   
+   
+
+}
+
+
+
+  img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.input {
+	margin-bottom : 40px;
+   
+}
+
+  input {
+	margin-top: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 35px;
+	border: 1px outset #dadada;
+	background-image: url('th.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: 96%;
+	display: flex;
+	background-size: 3%;
+	;
+	
+}
+input:hover {
+	
+	box-shadow: 0 4px 5px #d9d9d9;
+	
+}
+
+  
+  
+ .input .microphone-img img {
+ 	width: 1.3%;
+ 	position: absolute;
+
+ }
+
+#press-button {
+	width: 100%;
+    
+
+}
+
+#press-button ul {
+	/*float: left;*/
+	list-style-type: none;
+	display: inline;
+	
+
+
+}
+
+#press-button ul li {
+	
+	padding: 10px;
+	display: inline;
+	margin-bottom: : 50px;
+	color: #757575;
+	background-color: #f2f2f2;
+
+	
+	
+
+}
+
+#press-button ul li:hover {
+	
+	padding: 10px;
+	display: inline;
+	margin-bottom: : 50px;
+	color: #000;
+	background-color: #f2f2f2;
+	cursor: default;
+	border: 0.1px solid #cac8c8;
+	
+
+}
+
+ .vote-link {
+	margin-top: 30px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.Nigeria {
+	
+	margin-top: 50px;
+	background-color: #f2f2f2;
+	color: #757575;
+	height: 40px;
+	border: 1px solid #e4e4e4;
+	
+    
+}
+
+.letter {
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+.footer {
+	margin-top: 0px;
+    width: 100%;
+	background-color: #f2f2f2;
+	color: #757575;
+	height: 40px;
+	border-top:10px;
+
+}
+ .footer .left-footer li{
+	display: inline;
+    margin-left: 20px;
+    font-size: 12px;
+	padding: 10px;
+	
+}
+.footer .left-footer  {
+	float: left;
+	margin-top: 15px;
+}
+
+.footer .right-footer li{
+	display: inline;
+    font-size: 12px;
+	padding: 10px;
+	
+}
+.footer .right-footer  {
+	float: right;
+	margin-top: 15px;
+}
+.languages {
+	margin-top : 30px;
+}
+
+.languages a {
+	padding: 3px;
+}
+
